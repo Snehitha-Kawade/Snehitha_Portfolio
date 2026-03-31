@@ -1,0 +1,117 @@
+
+ 
+   /*************** css for landing page  starts here  ********* ****/
+
+        
+    /*--------------------index page-------------*/
+    #bannerimg{
+        width: 1530px;
+        height: 500px;
+        
+        }
+   /*----------heading icons----------*/
+   
+   
+   #icons{
+      padding-left: 1000px;
+   }
+
+   .C1{
+       width:100%;
+       height: 600px;
+     }
+
+
+/*--------------aboutpage----------------------*/
+     .about{
+        background-image: url(media/images/url.jpg);
+        width:100%;
+        height: 250px;
+    }
+
+    .size{ 
+        height:50px;  }
+
+  .cmpy{
+      width:500px;height:250px;}
+
+      .img-fluid1{
+        width:180px;
+        margin-bottom: 5px;
+        margin-left: 15px;
+       }
+
+      .img-fluid2{
+         width:200px;  
+       }  
+
+      .img-fluid3{
+        width:190px;
+       } 
+
+      .img-fluid4{
+        width:190px;  margin-bottom:20px;
+
+       } 
+        .img-fluid5{
+        width:170px;  
+       }  
+     
+   /*----------our services image---------------*/
+
+     .services{
+        width:350px;height:240px;  }
+
+
+    /*----------our expert image---------------*/
+        .experts{
+           width:330px;
+         }
+
+    /*----------blog image---------------*/
+
+      .blogimg{
+           width:350px;height:230px;
+        }
+
+        .blog{
+            background-color: rgb(230, 229, 228);
+        }
+
+    /*----------working procces  images---------------*/
+
+        .workp1{  
+            width:100px;height:100px;  }
+
+        .workp2{
+            width:200px;height:100px;  } 
+
+        .workp3{
+             width:200px;height:110px; }
+
+        .workp4{
+             width:100px;height:110px;  }  
+
+      .process {
+         background-color: rgb(230, 229, 228);  }
+
+
+
+   
+    /*-----------footor------*/
+    .footer{
+        background-color:rgb(230, 229, 228);
+    }
+   
+   /*************** css for landing page  ends here  *************/
+
+     /*************** css for services page not written  *************/
+
+
+     /*************** css for shop page  **********/
+      
+     .shop1{
+        width:200px;
+
+        }
+  /*************** css for shop page ends  **********/

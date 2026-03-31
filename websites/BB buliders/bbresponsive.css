@@ -1,0 +1,228 @@
+   
+   @media  screen and (min-width: 360px) and (max-width:640px) {
+
+    .class_size
+    {
+        width:310px;
+    }
+      .bblg {
+          margin-left: 120px;
+          margin-bottom: 10px;
+      }
+
+      .bbtitle{
+        margin-left: 50px;
+       
+      }
+
+    .ew {
+        margin-top: 13px ;
+    }
+      .qa{
+        margin-top: 13px ;
+      }
+     .hr{
+        margin-top: 13px ;
+     }
+
+     .q1{
+         font-size: 22px;
+     }
+
+    .wellimg{
+        width: 300px;
+        height: 200px;
+       margin-top: 12px;
+      }
+  
+
+      .dm{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    .dummy{
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        text-align:justify;
+     }
+  
+      .knw{
+       margin-left: 100px;
+       margin-bottom: 10px;
+      }
+  
+
+      .ic{
+          padding: 10px;
+      }
+
+      .feed{
+          margin-top: 10px;
+      }
+
+      .ourteam{
+          padding :10px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+      }
+      .btn{
+          margin-bottom: 7px;
+      }
+
+         .constimg{
+             padding:10px;
+            margin-left: 50px;
+         }
+
+         .ser {
+             margin-top: 5px;
+         }
+
+         .btn1{
+             margin-top: 15px;
+             margin-bottom: 15px;
+             margin-left: 120px;
+         }
+         .footer{
+             margin-top: 5px;
+             margin-bottom: 10px;
+         }
+         .ft{
+             margin-top: 10px;
+         }
+
+     .cpy{
+         margin-top: 10px;
+         margin-bottom: 10px;
+         padding:8px;
+     }
+/*------------index page ends -------------*/
+
+/*-----------about page ends -------------*/
+    .wel{
+        margin-top: 10px;
+       
+    }
+  .abtimg {
+    padding: 15px;
+}
+/*-----------our team page ends -------------*/
+
+          .card{
+           width:250px; 
+          }
+   /*-----------blog page ends -------------*/
+
+      .ob{
+          font-size:20px;
+          margin-top:10px;
+      }
+      .nw{
+        font-size:27px;
+      }
+
+      .vic{
+        font-size:20px;
+        margin-top:15px;
+      }
+
+      .blogimg1{
+        width: 250px;
+        height:200px;
+        margin: 15px;
+      }
+
+      .blogimg2{
+        width: 250px;
+        height:200px;
+        margin: 15px;
+      }
+      
+      .lrm{
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+      .blg1{
+          margin:4px;
+      }
+      .blg2{
+        margin:17px;
+      }
+
+  /*-----------blog page ends -------------*/
+
+  /*-----------govtprojects  page starts here-------------*/
+
+  .d{
+     padding: 20px;
+   }
+
+  .govtimg1{
+    width:310px;
+    margin-left: 20px;
+
+   }
+
+   .govtimg2{
+     width:310px;
+     margin-left: 20px;
+    }
+
+
+    .govtimg3{
+     width:310px;  margin-left: 20px;
+    }
+
+    .govtimg4{
+     width:310px;
+     height: 200px;margin-left: 20px;
+   }
+
+
+
+   /*---------pvt projects page -------------*/
+       
+     
+   .prvtprject1{
+    width:310px;
+    margin-left: 20px;
+    }
+
+   .prvtprject2{
+      width:310px;
+      height:250px;
+      margin-left: 20px;
+    }
+
+    .prvtprject3{
+      width:310px;margin-left: 20px;
+    }
+
+    .prvtprject4{
+       width:310px;
+       height:220px;
+       margin-left: 20px;
+    }
+     
+     
+   /*-----------contact us page ends -------------*/
+
+       .agent{
+           margin-left: 120px;
+       }
+       .agentimg{
+        margin-left: 90px;
+       }
+
+       .name{
+           margin-left: 110px;
+       }
+       .dum{ 
+           margin-left: 30px;
+           margin-right: 30px;
+           text-align:justify;
+    }
+  
+   }

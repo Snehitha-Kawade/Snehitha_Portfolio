@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Know More</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <style>
+    .choice-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .choice-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .choice-card img {
+      width: 50%;
+      object-fit: cover;
+      align-items: center;
+    }
+
+    .choice-card-body {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .choice-card-body h5 {
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .choice-card-body p {
+      font-size: 18px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body class="container py-5">
+
+  <h2 class="text-center mb-4">View Website </h2>
+  <div class="row">
+    <!-- Auto Care Solution -->
+    <div class="col-md-6 mb-4">
+      <div class="choice-card shadow">
+        <img src="img/illustrator/acs logo.png" alt="Centered Image">
+        <div class="choice-card-body">
+          <h5>Auto Care Solution</h5>
+          <p>Professional car service and maintenance solutions.</p>
+          <a href="websites/car website/carindexpage.html" target="_blank" class="btn btn-dark">Visit Site</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- BB Builders -->
+    <div class="col-md-6 mb-4">
+      <div class="choice-card shadow ">
+        <img src="img/illustrator/bb logo.png" alt="BB Builders">
+        <div class="choice-card-body">
+          <h5>BB Builders</h5>
+          <p>Trusted construction and building services for modern projects.</p>
+          <a href="websites/BB buliders/BBindex.html" target="_blank" class="btn btn-warning ">Visit Site</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

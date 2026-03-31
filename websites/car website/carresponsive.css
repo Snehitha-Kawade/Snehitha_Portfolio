@@ -1,0 +1,239 @@
+
+
+@media only screen and (min-width: 360px )and (max-width:640px){
+   
+      /*------------open hrs----------------*/
+       
+      .startingline{
+            padding: 5px;
+         }
+
+         .hrs{
+             margin-left: 50px;
+         }
+
+         .icons{
+            margin-left: 120px;
+         }
+
+  /*------------search or 2 heading line----------------*/
+
+   .lg{
+        width:80px;
+        margin-top: 7px;
+        margin-left: 30px;
+   }
+      .bkapp{
+          margin-top: 10px;
+          margin-bottom:5px ;
+          padding: 7px;
+         margin-left: 90px;
+
+      }
+         .login{
+            margin-top: 7px;
+            margin-bottom:5px ;
+            padding: 7px;
+           margin-left: 135px;
+         }
+
+
+         .profile{  margin-top: 7px;
+            margin-bottom:5px ;
+            padding: 7px;
+           margin-left: 135px;
+
+         }
+
+/*---------about us page-------------*/
+         .cmpy{
+           padding: 7px;}
+
+           .off{
+               margin-top: 20px;
+          
+           }
+      .img-fluid1{
+          width:170px;
+          margin-left:70px;
+      }
+      .img-fluid2{
+        width:170px;
+        margin-left:70px;
+    }
+      .img-fluid3{
+        width:190px;margin-left:70px;
+       } 
+
+      .img-fluid4{
+        width:190px;  margin-left:70px;
+
+       } 
+        .img-fluid5{
+        width:170px;  margin-left:70px;
+       }  
+       
+
+        
+    /*--------- carousel------*/
+    .C1{
+     margin-top: 10px;
+      width:100%;
+     height:200px;
+      }
+      .lrm{
+          text-align: justify;
+      }
+
+      .car1{
+          width: 270px;
+          margin-right: 10px;
+      }
+
+
+/*----------services image---------------*/
+
+      .services{
+         width:320px;height:240px; 
+         padding: 8px;
+        margin-left: 10px;
+        margin-right: 10px; }
+
+        .ck{
+            width: 310px;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .dummy{
+            margin-top: 5px;
+        }
+        .tx{
+            text-align: justify;
+        }
+
+
+    /*----------our expert image---------------*/
+        .experts{
+           width:220px;
+         }
+         .exp{
+             margin-top:10px;
+         }
+        
+    /*----------blog image---------------*/
+
+      .blogimg {
+
+        width:320px;
+        padding: 8px;
+     }
+
+    /*----------working procces  images---------------*/
+       .WOR{
+        margin-top: 15px;
+    }
+    .workp1{  
+        width:100px;height:100px;  }
+
+    .workp2{
+        width:200px;height:100px;  } 
+
+    .workp3{
+         width:200px;height:110px; }
+
+    .workp4{
+         width:100px;height:110px;  }  
+
+    .process {
+     background-color: rgb(230, 229, 228);  }
+
+
+  /*---------service page ---------------*/
+      .serbann{
+          width:500px;
+    
+      }
+      .ab {
+        margin-top:15px;
+      }
+
+      .ser1{
+       text-align: center;
+      }
+
+   /*---------book appointment page ---------------*/
+
+    .bk{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+  /*---------SHOP page ---------------*/
+    .itm{
+      padding:10px;
+    }
+
+    .add{
+        margin-bottom: 5px;
+    }
+
+   .btn{
+    margin-bottom: 5px;
+    }
+
+   .cartg{
+       margin-top: 5px;
+       padding: 5px;
+   }
+
+ /*---------BLOG page ---------------*/
+      .blog{
+          padding: 15px;
+       }
+      .imgblg{
+         padding: 8px;
+       }
+
+       .update {
+         margin-top: 10px ;
+       }
+   .sb{
+     margin-top: 9px ;
+       margin-bottom: 9px;
+   }
+     .staytuned{
+         margin-top: 10px;
+         margin-bottom: 20px;
+     }
+/*-------- testmoinals  page ---------------*/
+ 
+      .frnd1{
+          height: 80px;
+          margin-top: 170px;
+          margin-bottom: 15px;
+         
+      }
+    .pe{
+        text-align: justify;
+        font-size: 2px;
+        margin-left: 30px;
+    }
+    .frnd2{
+        height: 80px;
+        margin-top: 190px;
+        margin-bottom: 15px;
+    }
+  .peo{
+      text-align: justify;
+      font-size: 2px;
+      margin-left: 30px;
+   
+  }
+     .tst{
+         margin-bottom: 15px;
+     }
+
+
+}
