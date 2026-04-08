@@ -1,11 +1,8 @@
-
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
 
 html {
   font-family: sans-serif;
@@ -13,8 +10,11 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-html, body {
-  overflow-x: hidden;   /* Prevent horizontal scroll */
+
+html,
+body {
+  overflow-x: hidden;
+  /* Prevent horizontal scroll */
 }
 
 
@@ -28,7 +28,7 @@ body {
   text-align: left;
   background-color: #ffffff;
 }
- 
+
 a {
   color: #007bff;
   text-decoration: none;
@@ -39,12 +39,18 @@ a:hover {
   color: #078571;
   text-decoration: underline;
 }
- 
-h1,h2,h3,h4,h5,h6,p{
-  color:  #000000 !important;
-} 
 
- 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #000000 !important;
+}
+
+
 
 /********** Template CSS ************/
 
@@ -71,9 +77,6 @@ h1,h2,h3,h4,h5,h6,p{
 .form-control {
   border-radius: 25px;
 }
-
-
-
 
 /* ================ Navigation Menu ====================*/
 
@@ -103,18 +106,18 @@ h1,h2,h3,h4,h5,h6,p{
 
 /*===================== Hero section ======================*/
 
-.about-img{
- margin-left: -100px;
- right: -60px;
+.about-img {
+  margin-left: -100px;
+  right: -60px;
 }
 
-.display-1{
+.display-1 {
   font-size: 100px;
   font-weight: 1000;
-  
+
 }
- 
-.position-absolute{
+
+.position-absolute {
   font-weight: 700;
 }
 
@@ -123,10 +126,11 @@ h1,h2,h3,h4,h5,h6,p{
   color: #ffffff;
 }
 
-.blue{
+.blue {
   background-color: #1c5ce6;
   color: #ffffff;
 }
+
 /* .btn btn-light{
   border:none;
 }  */
@@ -134,22 +138,33 @@ h1,h2,h3,h4,h5,h6,p{
 /* .btn{
   border: 2px solid rgb(29, 105, 247); */
 
- 
-.btn-white{
+
+.btn-white {
   background-color: #ffffff;
-  border:2px solid #ffffff;
+  border: 2px solid #ffffff;
 }
-.btn-blue{
+
+.btn-blue {
   border: 2.4px solid #ffffff;
   color: #ffffff;
 }
+
 @media (max-width: 700px) {
-  .about-img{
+  .about-img {
     margin-left: 20px;
     right: 0px;
     top: 30px;
-   }
+  }
+
+.display-1 {
+  font-size:60px;
+  font-weight: bold;
 }
+h1{
+  font-size: 22px;
+}
+}
+
 /*===================== Progress Bar ====================*/
 
 .progress {
@@ -164,13 +179,13 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 /* =================== Queality ======================*/
-.ex-me{
+.ex-me {
   margin-top: 35px;
 }
 
 
 /* =================== Service Section ==================*/
-.service-h4{
+.service-h4 {
   padding-bottom: 30px;
 }
 
@@ -183,17 +198,19 @@ h1,h2,h3,h4,h5,h6,p{
   border-radius: 60px;
 }
 
-.service-box{
-  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);  
+.service-box {
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
   margin-left: 20px;
   padding: 15px;
   padding-left: 30px;
   padding-right: 30px;
 }
-.service-box:hover{
-  box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
- 
+
+.service-box:hover {
+  box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705);
+
 }
+
 /* =================== Portfolio section ==================*/
 
 
@@ -217,15 +234,12 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* ====================== Testimonial ================*/
-.testimonial-carousel .text-center{
+.testimonial-carousel .text-center {
   background-color: #eaecf0d0;
   border-radius: 20px;
   margin: 20px;
 
 }
-/* .testimonial-carousel .text-center h4{
-
-} */
 
 .testimonial-carousel .owl-dots {
   margin-top: 25px;
@@ -282,66 +296,115 @@ h1,h2,h3,h4,h5,h6,p{
   0% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(-15px);
   }
 }
 
+/* =========box styles =========== */
+
 
 /* Card container */
 .portfolio-card {
-    position: relative;
+  position: relative;
 }
-
-/* Overlay content */
-.portfolio-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-    background: rgba(0, 0, 0, 0.7);
-    opacity: 0;
-
-    transition: 0.4s ease;
-    padding: 15px;
-}
-
-/* Show on hover */
-.portfolio-card:hover .portfolio-overlay {
-    opacity: 1;
-}
-
-/* Optional: smooth text animation */
-.portfolio-overlay h4,
-.portfolio-overlay p,
-.portfolio-overlay a {
-    transform: translateY(20px);
-    transition: 0.3s;
-}
-
-.portfolio-card:hover .portfolio-overlay h4,
-.portfolio-card:hover .portfolio-overlay p,
-.portfolio-card:hover .portfolio-overlay a {
-    transform: translateY(0);
-}
-
-.portfolio-card img {
-    transition: 0.4s;
-}
-
-.portfolio-card:hover img {
-    transform: scale(1.1);
-}
-
-.portfolio-card {
-  aspect-ratio: 16/9;   /* or 1/1 for square */
+.card {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
   overflow: hidden;
+  transition: all 0.3s ease;
 }
 
-.portfolio-card img {
+.card.hide {
+  display: none !important;
+}
+
+.card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+/* Hover Effect */
+.card:hover img {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.card:hover .content {
+  background: rgb(255, 255, 255);
+  color: rgb(1, 1, 1);
+}
+
+.card:hover .content p {
+  color: #000000;
+}
+
+.card:hover .content span {
+  border-color: rgb(0, 0, 0);
+}
+
+/* 🔥 MAIN FIX: overlay on image */
+.content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  height: 90px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Text */
+.content h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.content p {
+  margin: 5px 0 0;
+  color: gray;
+  font-size: 10px;
+}
+
+/* Arrow button */
+.content span {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(165, 163, 163);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* .works {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+ padding: 40px; 
+  flex-wrap: wrap;
+} */
+
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center; 
+
+}
+
+@media (max-width: 700px) {
+ .works .card {
+     margin-inline: 55px
+}
 }
