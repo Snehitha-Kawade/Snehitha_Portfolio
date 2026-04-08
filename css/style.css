@@ -163,8 +163,8 @@ p {
 h1{
   font-size: 22px;
 }
-iframe{
-  width:50%;
+.google-map{
+      width: 19rem;
 }
 }
 
