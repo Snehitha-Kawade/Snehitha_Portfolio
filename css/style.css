@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -17,7 +18,6 @@ body {
   /* Prevent horizontal scroll */
 }
 
-
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -27,6 +27,19 @@ body {
   color: #6c757d;
   text-align: left;
   background-color: #ffffff;
+}
+
+.knw {
+  width: 150px;
+}
+
+.img-fluid {
+  width: 90% ! important;
+  margin-top: 20px;
+}
+
+.mypf {
+  margin-left: 35px;
 }
 
 a {
@@ -49,8 +62,6 @@ h6,
 p {
   color: #000000 !important;
 }
-
-
 
 /********** Template CSS ************/
 
@@ -114,7 +125,6 @@ p {
 .display-1 {
   font-size: 100px;
   font-weight: 1000;
-
 }
 
 .position-absolute {
@@ -138,7 +148,6 @@ p {
 /* .btn{
   border: 2px solid rgb(29, 105, 247); */
 
-
 .btn-white {
   background-color: #ffffff;
   border: 2px solid #ffffff;
@@ -149,24 +158,6 @@ p {
   color: #ffffff;
 }
 
-@media (max-width: 700px) {
-  .about-img {
-    margin-left: 20px;
-    right: 0px;
-    top: 30px;
-  }
-
-.display-1 {
-  font-size:60px;
-  font-weight: bold;
-}
-h1{
-  font-size: 22px;
-}
-.google-map{
-      width: 19rem;
-}
-}
 
 /*===================== Progress Bar ====================*/
 
@@ -203,10 +194,11 @@ h1{
 
 .service-box {
   box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
-  margin-left: 20px;
-  padding: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
+   padding: 10px;
+   gap:10px;
+  /* margin-left: 10px; */
+  /* padding-left: 30px;
+  padding-right: 30px; */
 }
 
 .service-box:hover {
@@ -312,6 +304,7 @@ h1{
 .portfolio-card {
   position: relative;
 }
+
 .card {
   position: relative;
   width: 250px;
@@ -330,6 +323,7 @@ h1{
   height: 100%;
   object-fit: cover;
 }
+
 /* Hover Effect */
 .card:hover img {
   transform: scale(1.1);
@@ -401,13 +395,57 @@ h1{
 .works {
   display: flex;
   flex-wrap: wrap;
-   gap: 20px;
-   justify-content: center; 
+  gap: 20px;
+  justify-content: center;
 
+}
+
+/* ----- mobile view css------------ */
+
+
+
+@media (max-width: 576px) {
+
+  .knw,
+  .mypf {
+
+    display: block;
+    width: 70%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    height: 48px;
+  }
+
+  .mypf {
+    font-size: 13px;
+    padding-top: 10px;
+  }
 }
 
 @media (max-width: 700px) {
- .works .card {
-     margin-inline: 55px
-}
+  .about-img {
+    margin-left: 20px;
+    right: 0px;
+    top: 30px;
+  }
+
+  .display-1 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .google-map {
+    width: 290px;
+    padding-top: 40px;
+    margin-left: -14px;
+  }
+
+  .works .card {
+    margin-inline: 55px
+  }
+
 }
