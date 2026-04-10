@@ -453,7 +453,7 @@ p {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 576px) {
   .about-img {
     margin-left: 20px;
     right: 0px;
