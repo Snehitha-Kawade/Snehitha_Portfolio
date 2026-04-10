@@ -429,12 +429,7 @@ p {
     border-radius: 10px;
 }
 
-/* RESPONSIVE */
-/* @media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-} */
+
 
 /* ----- mobile view css------------ */
 
@@ -475,9 +470,9 @@ p {
   }
 
   .google-map {
-    width: 290px;
+    width: 325px;
     padding-top: 40px;
-    margin-left: -14px;
+    /* margin-left: -14px; */
   }
 
   .works .card {
