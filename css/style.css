@@ -400,6 +400,42 @@ p {
 
 }
 
+
+/* --- contact mee---- */
+.contact-section {
+    padding: 30px 0;
+
+}
+
+.contact-left h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.desc {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+/* Map */
+.google-map {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* RESPONSIVE */
+/* @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+} */
+
 /* ----- mobile view css------------ */
 
 
