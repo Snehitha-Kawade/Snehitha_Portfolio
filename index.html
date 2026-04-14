@@ -21,8 +21,31 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <!-- Customized css Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        h2.section-title {
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            color: #e32020;
+        }
+
+        h2.section-title::after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: #007bff;
+            margin: 10px auto 0;
+
+        }
+    </style>
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -41,37 +64,40 @@
                 <a href="#about" class="nav-item nav-link">About</a>
                 <a href="#qualification" class="nav-item nav-link">Quality</a>
                 <a href="#skill" class="nav-item nav-link">Skill</a>
-                <a href="#service" class="nav-item nav-link">Service</a>
                 <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
                 <!-- <a href="#testimonial" class="nav-item nav-link">Review</a> -->
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-menu d-none d-lg-block" style="background-color:#007bff; color: #ffffff;">Hire
-                Me</a>
+            <a href="#" class="btn btn-menu d-none d-lg-block" style="background-color:#007bff; color: #ffffff;">Hire Me</a>
         </div>
     </nav>
-    <!-- Navbar End  #7bb7f6 -->
+    <!-- Navbar End -->
 
     <!-- Header Start -->
-
-    <div class="container-fluid  d-flex align-items-center mb-5 py-5" id="home"
-        style="min-height: 100vh;  background-color:gray;">
+    <div class="container-fluid d-flex align-items-center mb-5 py-5 home">
         <div class="container">
             <div class="row align-items-center">
-
-                <div class="col-lg-7 text-center text-lg-left">
+                <div class="col-lg-6 text-center text-lg-left">
                     <h3 class="text-white font-weight-normal mb-3">Hello, I am</h3>
-                    <h1 class="display-3 " style="-webkit-text-stroke: 4px #ffffff; font-size: 50px;font-weight: 240;
-                    line-height: 1.2;">Snehitha Kawade </h1>
+                    <P class="display-3 " style="-webkit-text-stroke: 2px #ffffff; font-size: 55px;font-weight: 250;
+                    line-height: 1.2;">Snehitha Kawade </p>
                     <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
                     <div class="typed-text d-none">UI/UX Designer, Web Developer, Front End Developer,</div>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
                         <a href="#about" target="_blank" class="btn btn-white knw">know More </a>
-                        <a href="#portfolio" class="btn btn-blue mypf">My Portfolio</a>
+                        <a href="#portfolio" target="_blank" class="btn btn-white mypf">View My Works</a>
+                    </div>
+
+                    <div class="row" style="margin-left: 16rem; margin-top: 3rem;">
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon "> <img src="img/lnk.webp" alt="Naukri"> </a>
+                        <a href="https://www.naukri.com/" target="_blank" class="social-icon "> <img src="img/Nakuri1.png" alt="Naukri"></a>
+                        <a href="https://www.naukri.com/" target="_blank" class="social-icon "> <img src="img/mail2.webp" alt="Naukri"> </a>
                     </div>
                 </div>
-                <div class="col-lg-6 px-8 pl-lg-0 pb-5 pb-lg-4 about-img">
-                    <img class="img-fluid  rounded-circle shadow-sm" src="img/about.jpeg" alt="">
+
+                <div class="col-lg-6 d-flex justify-content-center align-items-center px-3 pb-5 pb-lg-4 about-img">
+                    <img class="img-fluid rounded-circle shadow-sm" src="img/about.jpeg" alt="">
                 </div>
             </div>
         </div>
@@ -80,23 +106,23 @@
     <!-- Header End -->
 
     <!-- About Start -->
-    <div class="container-fluid py-5" id="about">
+    <div class="container-fluid py-2" id="about">
         <div class="container">
-
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About Me</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About Me </h1>
                 <h1 class="position-absolute text-uppercase text-primary">About Me </h1>
             </div>
             <div class="row align-items-center">
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="img/about.jpeg" alt="">
+                <div class="col-lg-5 ">
+                    <img class="img-fluid rounded" src="img/about.jpeg" alt="">
                 </div>
                 <div class="col-lg-7">
-                    <h3 class="mb-4">Frontend Developer & UI UX Designer </h3>
+                    <h3 class="role mt-4" >Frontend Developer & UI UX Designer </h3>
                     <p>I’m a Frontend Developer with 3+ years of experience crafting responsive and user-centric
                         web applications. At GVR InfoSystem, I have built scalable and visually engaging interfaces
                         using ASP.NET,Bootstrap, and modern UI/UX principles. I focus on writing clean, maintainable
-                        code while delivering seamless user experiences. Passionate about design systems, wireframing,
+                        code while delivering seamless user experiences. Passionate about design systems,
+                        wireframing,
                         and branding,
                         I strive to transform ideas into intuitive and impactful digital products.</p>
 
@@ -115,7 +141,8 @@
                         </div>
 
                         <div class="col-sm-6 py-2">
-                            <h6>Skills : <span class="text-secondary">HTML & CSS & Boostrap , JavaScript, ASP.NET, C# ,
+                            <h6>Skills : <span class="text-secondary">HTML & CSS & Boostrap , JavaScript, ASP.NET,
+                                    C# ,
                                     MYSQL, WEB API's</span></h6>
                         </div>
                         <div class="col-sm-6 py-2">
@@ -134,57 +161,62 @@
             </div>
         </div>
     </div>
-
     <!-- About End -->
 
     <!-- Qualification Start -->
     <div class="container-fluid py-5" id="qualification">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality
+                </h1>
                 <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h3 class="mb-4">My Education</h3>
+                    <h3 class="edex mb-4"><i class="fas fa-graduation-cap"> Education</i></h3>
                     <div class="border-left border-primary pt-2 pl-4 ml-2">
                         <div class="position-relative ex-me mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute"
                                 style="top: 2px; left: -35px; font-size: 22px;"></i>
                             <h5 class="font-weight-bold mb-1">Bachelor of Engineering</h5>
-                            <p class="mb-2"><strong>Kakatiya institute of Engineering and
-                                    technology & science for women. [ECE]</strong> | <small>2018 - 2022</small></p>
-                            <!-- <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p> -->
-                        </div>
+                            <p class="mb-2">Kakatiya institute of Engineering and
+                                technology & science for women. [ECE] | <small>2018 - 2022</small></p>
+                            <!-- <p>Tempor eos dolore amet tempor dolor tempor.</p> -->
+                        </div> </br></br>
                         <div class="position-relative ex-me mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute"
                                 style="top: 2px; left: -35px;  font-size: 22px;"></i>
                             <h5 class="font-weight-bold mb-1">Diploma </h5>
-                            <p class="mb-2"><strong> MEGHA institute of Engineering and
-                                    technology & science for women. [ECE]</strong> | <small>2015 - 2018</small></p>
-                            <!-- <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p> -->
-                        </div>
+                            <p class="mb-2"> MEGHA institute of Engineering and
+                                technology & science for women. [ECE]| <small>2015 - 2018</small></p>
+                            <!-- <p>Tempor eos dolore amet tempor dolor tempor. </p> -->
+                        </div></br></br>
+
+
                         <div class="position-relative ex-me mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute"
                                 style="top: 2px; left: -35px;  font-size: 22px;"></i>
                             <h5 class="font-weight-bold mb-1">Schooling</h5>
-                            <p class="mb-2"><strong>SMAG Vidyanikaten High School.</strong> | <small>2014 - 2015</small>
+                            <p class="mb-2">SMAG Vidyanikaten High School. | <small>2014 -
+                                    2015</small>
                             </p>
-                            <!-- <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p> -->
-                        </div>
+                        </div></br></br>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h3 class="mb-4">My Expericence</h3>
+                    <h3 class="edex mb-4"><i class="fas fa-laptop-code"> Expericence</i></h3>
                     <div class="border-left border-primary pt-2 pl-4 ml-2">
                         <div class="position-relative ex-me mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute"
                                 style="top: 2px;left: -35px;  font-size: 22px;"></i>
                             <h5 class="font-weight-bold mb-1"> Frontend Developer & UI UX Designer Developer </h5>
-                            <p class="mb-2"><strong>GVR Info System Pvt. Ltd</strong> | <small> Excellent</small></p>
-                            <p>Frontend & ASP.NET Developer with 2 + year of experience in building responsive web
-                                applications. Skilled in HTML, CSS, Bootstrap , JavaScript and Angular for frontend, and
-                                C#, ASP.NET and C#, MySQL and Web API, MYSQL for backend development.</p>
+                            <p class="mb-2"><strong>GVR Info System Pvt. Ltd</strong> | <small> Excellent</small>
+                            </p>
+                            <p>Frontend & ASP.NET Developer with 3 year of experience in building responsive web
+                                applications.<!-- Skilled in HTML, CSS, Bootstrap , JavaScript and Angular for frontend,
+                                    and
+                                    C#, 
+                                    ASP.NET and C#, MySQL and Web API, MYSQL for backend development.</p> -->
                         </div>
                         <div class="position-relative ex-me mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute"
@@ -202,7 +234,8 @@
                                 style="top: 2px;left: -35px;  font-size: 22px;"></i>
                             <h5 class="font-weight-bold mb-1"> Graphic Designer</h5>
                             <p class="mb-2"><strong>Freelance</strong> | <small> Excellent</small></p>
-                            <p>Designed and created visual content for various clients, including logos, brochures, and
+                            <p>Designed and created visual content for various clients, including logos, brochures,
+                                and
                                 marketing materials. Utilized Adobe Creative Suite to bring ideas to life and ensure
                                 brand consistency.</p>
                         </div>
@@ -217,74 +250,120 @@
     <div class="container-fluid py-5" id="skill">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills
+                </h1>
                 <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
             </div>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">HTML & CSS & Boostrap</h6>
-                            <h6 class="font-weight-bold">99%</h6>
+
+            <!-- <div class="container-fluid py-5"> -->
+            <div class="skills row">
+                <!-- CARD 1 -->
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="skill-card">
+                        <h4>Frontend</h4>
+
+                        <div class="skill-item">
+                            <span>HTML & CSS</span><span>99%</span>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="99" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                            <div class="bar" style="width:99%"></div>
                         </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Javascript</h6>
-                            <h6 class="font-weight-bold">85%</h6>
+
+                        <div class="skill-item">
+                            <span>Boostrap</span><span>99%</span>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                            <div class="bar" style="width:99%"></div>
                         </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">ASP .Net & C# and MYSQL</h6>
-                            <h6 class="font-weight-bold">90%</h6>
+
+                        <div class="skill-item">
+                            <span>JavaScript</span><span>80%</span>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                            <div class="bar" style="width:80%"></div>
                         </div>
+
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Adobe Illustrator &Photoshop </h6>
-                            <h6 class="font-weight-bold">85%</h6>
+
+                <!-- CARD 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="skill-card">
+                        <h4>Backend</h4>
+
+                        <div class="skill-item">
+                            <span>ASP .Net & C#</span><span>90%</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <span> C#</span><span>90%</span>
+                        </div>
+
+                        <div class="progress">
+                            <div class="bar" style="width:90%"></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <span>MySQL</span><span>90%</span>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                            <div class="bar" style="width:90%"></div>
                         </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Adobe XD & Figma </h6>
-                            <h6 class="font-weight-bold">99%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="99" aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">learning Angular</h6>
-                            <h6 class="font-weight-bold">70%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-secondary " role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+
                     </div>
                 </div>
+
+                <!-- CARD 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="skill-card">
+                        <h4>Design</h4>
+
+                        <div class="skill-item">
+                            <span>Adobe Illustrator</span><span>85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width:85%"></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <span>Photoshop</span><span>85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width:85%"></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <span>Adobe XD & Figma</span><span>99%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width:99%"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="skill-card">
+                        <h4>Other Skills</h4>
+
+                        <div class="skill-item">
+                            <span>UI/UX</span><span>95%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width:95%"></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <span>Web Design</span><span>95%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width:95%"></div>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -295,7 +374,8 @@
     <div class="container-fluid pt-5 pb-3" id="portfolio">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">
+                    Gallery</h1>
                 <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
             </div>
             <div class="row mt-2">
@@ -405,121 +485,147 @@
             </div>
         </div> -->
         </div>
-        <!--------- MY portfolio works ENDS  here  --->
+    </div>
 
-        <!------ Services STARTS here  ----------->
-        <div class="container-fluid pt-5" id="service">
-            <div class="container">
-                <div class="service-h4 position-relative d-flex align-items-center justify-content-center">
-                    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service
-                    </h1>
-                    <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
-                </div>
-                <div class="container-fluid row">
-                    <div class="service-box col-lg-4  text-center mb-5">
-                        <div class="d-flex align-items-center justify-content-center mb-4">
-                            <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">Web Designer</h4>
-                        </div>
-                        <p>I have a great knowledge on Creating logos,Icons,Flyers,Visting Cards with using adobe
-                            illustrator & Designing of Webtemplates using ADOBE PHOTOSHOP</p>
-                        <!-- <a class="border-bottom border-primary text-decoration-none" href="#">Read More</a> -->
-                    </div>
+    <!--------- MY portfolio works ENDS  here  --->
 
-                    <div class="service-box col-lg-4  text-center mb-5">
-                        <div class="d-flex align-items-center justify-content-center mb-4">
-                            <i class="fa fa-2x fa-paint-brush service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0"> WireFraming </h4>
-                        </div>
-                        <p>I can make a Design a WireFraming of mobile app and giving Prototyping for Mobile App using
-                            ADOBE XD</p>
-                        <!-- <a class="border-bottom border-primary text-decoration-none" href="#">Read More</a> -->
-                    </div>
-                    <div class="service-box col-lg-4  text-center mb-5">
-                        <div class="d-flex align-items-center justify-content-center mb-4">
-                            <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0"> Web Development</h4>
-                        </div>
-                        <p>Iam good at Developing of multipage Webtemplates using HTML,CSS & BOOTSTRAP, Javascript</p>
-                        <!-- <a class="border-bottom border-primary text-decoration-none" href="#">Read More</a> -->
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--------------- Services STARTS here  ----------->
-
-        <!--------------- Contact Start here  -------------------------->
-
-        <!-- <div class="container-fluid py-5" id="contact">
-            <div class="container">
-                <div class="position-relative d-flex align-items-center justify-content-center">
-                    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
-                    <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 align-items-center justify-content-center mt-5">
-                       <p>If you’d like to collaborate or discuss opportunities, here are the quickest ways
-                            to reach me:</p>
-                            <h4>Mail id : <span class="text-primary">snehitha.mohan@gmail.com</span></h4>
-                             <h4>Call Me: <span class="text-primary">+91- 9705131288</span></h4>
-                     </div>
-                     
-                    <div class="map col-lg-6 ">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.9620875526593!2d78.49106391467109!3d17.413606988062885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99ec33edce11%3A0x5b179b94a588daeb!2sGandhi%20Nagar%2C%20Kavadiguda%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1656085879191!5m2!1sen!2sin"
-                            width="550" height="280" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade" class="google-map"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!----------------- Contact Ends here ------------>
-
+    <!------ Services STARTS here  ----------->
+    <div class="container-fluid pt-5" id="service">
         <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            <div class="service-h4 position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">
+                    Service
+                </h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
             </div>
-        </div>
+            <div class="container-fluid row">
+                <div class="service-box col-lg-4  text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Designer</h4>
+                    </div>
+                    <p>I have a great knowledge on Creating logos,Icons,Flyers,Visting Cards with using
+                        adobe
+                        illustrator & Designing of Webtemplates using ADOBE PHOTOSHOP</p>
+                    <!-- <a class="border-bottom border-primary text-decoration-none" href="#">Read More</a> -->
+                </div>
 
-  <section class="contact-section">
-    <div class="container">
-        <div class="row align-items-center">
+                <div class="service-box col-lg-4  text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-paint-brush service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0"> WireFraming </h4>
+                    </div>
+                    <p>I can make a Design a WireFraming of mobile app and giving Prototyping for Mobile App
+                        using
+                        ADOBE XD</p>
+                    <!-- <a class="border-bottom border-primary text-decoration-none" href="#">Read More</a> -->
+                </div>
+                <div class="service-box col-lg-4  text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0"> Web Development</h4>
+                    </div>
+                    <p>Iam good at Developing of multipage Webtemplates using HTML,CSS & BOOTSTRAP,
+                        Javascript</p>
+                    <!-- <a class="border-bottom border-primary text-decoration-none" href="#">Read More</a> -->
 
-            <!-- LEFT SIDE -->
-            <div class="col-lg-6 contact-left">
-                <h2>Get In Touch</h2>
-
-                <p class="desc">
-                    I’m always open to discussing new opportunities, creative ideas, or collaborations.
-                    Feel free to reach out to me anytime!
-                </p>
-
-                <div class="contact-info">
-                    <p><strong>Email:</strong> snehitha.mohan@gmail.com</p>
-                    <p><strong>Phone:</strong> +91 9705131288</p>
-                    <p><strong>Location:</strong> Hyderabad,Telangana, India</p>
-                    <p><strong>Available for:</strong> Freelance | Full-time | Remote Work</p>
                 </div>
             </div>
-
-            <!-- RIGHT SIDE -->
-            <div class="col-lg-6 contact-right">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.9620875526593!2d78.49106391467109!3d17.413606988062885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99ec33edce11%3A0x5b179b94a588daeb!2sGandhi%20Nagar%2C%20Kavadiguda%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1656085879191!5m2!1sen!2sin"
-                    allowfullscreen=""
-                    loading="lazy"
-                    class="google-map">
-                </iframe>
-            </div>
-
         </div>
     </div>
-</section>
+    <!--------------- Services STARTS here  ----------->
+
+    <!--------------- Contact Start here  -------------------------->
+
+    <div class="container" id="contact">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">
+                Contact</h1>
+            <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+        </div>
+    </div>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="desc">Get In Touch</h2>
+            <p class="desc">
+                I’m always open to discussing new opportunities, creative ideas, or collaborations.
+                Feel free to reach out to me anytime!
+            </p>
+            <div class="row align-items-center">
+                <!-- LEFT SIDE -->
+                <div class="col-lg-6 contact-left">
+                    <div class="contact-card">
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i> </div>
+                            <div>
+                                <div class="label">Email</div>
+                                <div class="value"> <strong>snehitha.mohan@gmail.com</strong></div>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <div class="label">Phone</div>
+                                <div class="value"> <strong>+91 9705131288</strong></div>
+                            </div>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <div class="label">Location</div>
+                                <div class="value"> <strong>Hyderabad, Telangana, India</strong></div>
+                            </div>
+                        </div>
+
+                        <!-- Availability -->
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                            <div>
+                                <div class="label">Available for</div>
+                                <div class="value"> <strong>Freelance | Full-time | Remote Work</strong></div>
+                            </div>
+                        </div>
+
+                        <!-- Social -->
+                        <div class="social-title">Follow Me</div>
+
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- RIGHT SIDE -->
+                <div class="col-lg-6 contact-right">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.9620875526593!2d78.49106391467109!3d17.413606988062885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99ec33edce11%3A0x5b179b94a588daeb!2sGandhi%20Nagar%2C%20Kavadiguda%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1656085879191!5m2!1sen!2sin"
+                        allowfullscreen="" loading="lazy" class="google-map">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ----contact end here  -------------------------->
 
     <!----------- Footer Start ---------------->
-    <div class="container-fluid bg-secondary text-white mt-2 ">
+    <div class="container-fluid bg-secondary text-white mt-2 "
+        style="background-image: url('img/UX.png'); background-size: cover; background-position: center;">
         <div class="container text-center py-5">
             <div class="d-flex justify-content-center mb-4">
                 <a class="btn btn-light btn-social mr-2"> <i class="fab fa-linkedin-in"> </i> </a>
@@ -544,6 +650,7 @@
     </div>
 
     <!------------ Footer End ------------>
+
 
     <!---------------boxs----STARTS  here-->
     <!-- <div class="container-fluid pt-5 pb-3" id="portfolio">
@@ -755,6 +862,7 @@
 
 
     <!-- Scroll to Bottom -->
+
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
     <!-- Back to Top -->

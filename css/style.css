@@ -15,6 +15,7 @@ html {
 html,
 body {
   overflow-x: hidden;
+
   /* Prevent horizontal scroll */
 }
 
@@ -24,19 +25,14 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #6c757d;
+  /* color: #6c757d; */
   text-align: left;
-  background-color: #ffffff;
 }
 
 .knw {
   width: 150px;
 }
 
-.img-fluid {
-  width: 90% ! important;
-  margin-top: 20px;
-}
 
 .mypf {
   margin-left: 35px;
@@ -62,6 +58,14 @@ h6,
 p {
   color: #000000 !important;
 }
+.role{
+  font-family: cursive;
+   font-size: 28px;
+  }
+
+  
+
+
 
 /********** Template CSS ************/
 
@@ -87,6 +91,30 @@ p {
 
 .form-control {
   border-radius: 25px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 50%;
+    margin-left: 12px;
+    transition: 0.3s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.social-icon img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+    background: #ffffff;
 }
 
 /* ================ Navigation Menu ====================*/
@@ -118,8 +146,8 @@ p {
 /*===================== Hero section ======================*/
 
 .about-img {
-  margin-left: -100px;
-  right: -60px;
+  width: 100%;
+  max-width: 450px;
 }
 
 .display-1 {
@@ -132,7 +160,7 @@ p {
 }
 
 .typed-cursor {
-  font-size: 45px;
+  font-size: 55px;
   color: #ffffff;
 }
 
@@ -194,8 +222,8 @@ p {
 
 .service-box {
   box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
-   padding: 10px;
-   gap:10px;
+  padding: 10px;
+  gap: 10px;
   /* margin-left: 10px; */
   /* padding-left: 30px;
   padding-right: 30px; */
@@ -403,33 +431,178 @@ p {
 
 /* --- contact mee---- */
 .contact-section {
-    padding: 30px 0;
+  padding: 30px 0;
 
 }
 
 .contact-left h2 {
-    font-size: 32px;
-    margin-bottom: 15px;
+  font-size: 32px;
+  margin-bottom: 15px;
 }
 
 .desc {
-    color: #555;
-    margin-bottom: 20px;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .contact-info p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 /* Map */
 .google-map {
-    width: 100%;
-    height: 300px;
-    border: 0;
-    border-radius: 10px;
+  width: 100%;
+  height: 370px;
+  border: 0;
+  border-radius: 10px;
+  /* margin-top: 15px; */
 }
 
 
+/* body {
+  background: linear-gradient(135deg, #0b132b, #1c2541);
+  color: #fff;
+} */
+
+
+body {
+  /* background: linear-gradient(135deg, #667eea, #764ba2); */
+  font-family: "Poppins", sans-serif;
+}
+
+.skill-card {
+  width: 100%;
+  height: 250px;
+}
+
+
+/* CARD DESIGN */
+.skill-card {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 25px;
+  color: #090909;
+  transition: 0.4s;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Glow Effect */
+.skill-card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  top: -50%;
+  left: -50%;
+  transform: rotate(25deg);
+}
+
+/* Hover Effect */
+.skill-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* HEADINGS */
+.skill-card h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #38bdf8, #c084fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* SKILL TEXT */
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #000000;
+}
+
+
+/* PROGRESS BAR BACK */
+.progress {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+/* PROGRESS BAR COLORFUL */
+.bar {
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #3b82f6, #22d3ee, #a78bfa);
+  animation: load 2s ease-in-out;
+}
+
+/* ANIMATION */
+@keyframes load {
+  from {
+    width: 0;
+  }
+}
+
+/* RESPONSIVE SPACING */
+.container {
+  padding-top: 50px;
+}
+
+.home {
+  position: relative;
+  min-height: 100vh;
+  background-image: url('../img/UX.png');
+  /* FIX PATH if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Overlay */
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(211, 210, 210, 0.5); */
+
+
+}
+
+/* Content above overlay */
+.home .container {
+  position: relative;
+  z-index: 1;
+}
+
+.knw {
+ transform: scale(1.1);
+}
+
+.mypf{
+   transform: scale(1.1);
+}
+
+/* Know More button */
+.knw:hover {
+    /* background-color: #82bdf7; */
+    color: #f72929;
+    border:none;
+}
+
+.mypf:hover {
+     /* background-color: #e92d0c; */
+    color: #ff0000;
+}
 
 /* ----- mobile view css------------ */
 
@@ -439,7 +612,6 @@ p {
 
   .knw,
   .mypf {
-
     display: block;
     width: 70%;
     margin-bottom: 10px;
@@ -449,7 +621,7 @@ p {
 
   .mypf {
     font-size: 13px;
-    padding-top: 10px;
+    padding-top: 6px;
   }
 }
 
@@ -471,6 +643,7 @@ p {
 
   .google-map {
     width: 325px;
+       
     padding-top: 40px;
     /* margin-left: -14px; */
   }
@@ -478,5 +651,83 @@ p {
   .works .card {
     margin-inline: 55px
   }
+  .role{
+  font-family: cursive;
+   font-size: 17px;
+   font-weight: bold;
+  }
+  .skills{
+      padding: 10px;
+    gap: 18px;
+}
 
 }
+
+/* -----------get in touch section------------------ */
+
+.contact-card{
+    background-color: whitesmoke;
+    padding:25px;
+    border-radius:15px;
+    color: #007bff;
+    /* box-shadow:0 10px 30px rgba(0,0,0,0.4); */
+}
+
+.contact-item{
+    display:flex;
+    align-items:center;
+    margin-bottom:18px;
+}
+
+.contact-item .icon{
+    width:45px;
+    height:45px;
+    background: #007bff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    margin-right:12px;
+    color:#ffffff;
+    font-size:18px;
+}
+
+.contact-item .label{
+    font-size:12px;
+    color:#000000;
+}
+
+.contact-item .value{
+    font-size:14px;
+    color:#000000;
+}
+
+.social-title{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-weight:bold;
+    color:#000000;
+}
+
+.social-icons{
+    display:flex;
+    gap:10px;
+}
+
+.social-icons a{
+    width:40px;
+    height:40px;
+    background:#ffffff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:8px;
+    color:#000000;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+/* .social-icons a:hover{
+    background:#ffffff;
+    color:#000;
+} */
