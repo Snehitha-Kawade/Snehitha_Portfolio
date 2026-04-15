@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -14,9 +13,8 @@ html {
 
 html,
 body {
-  overflow-x: hidden;
-
-  /* Prevent horizontal scroll */
+  overflow-x: hidden;  /* Prevent horizontal scroll */
+   /* font-family: "Poppins", sans-serif; */
 }
 
 body {
@@ -26,15 +24,6 @@ body {
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
-}
-
-.knw {
-  width: 150px;
-}
-
-
-.mypf {
-  margin-left: 35px;
 }
 
 a {
@@ -48,28 +37,25 @@ a:hover {
   text-decoration: underline;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1,h2,h3,h4,h5,h6,p {
   color: #000000 !important;
 }
+
+/* About Start */
 .role{
   font-family: cursive;
    font-size: 28px;
   }
 
-/********** Template CSS ************/
-
+/**********About ends  ************/
 
 .text-stroke-header {
   -webkit-text-stroke: 3px #ffffff;
   color: transparent;
 }
 
+
+/* --- buttons --- starts --- */
 .btn {
   padding: 10px 25px;
   border-radius: 100px;
@@ -112,7 +98,39 @@ p {
     background: #ffffff;
 }
 
-/* ================ Navigation Menu ====================*/
+/* RESPONSIVE SPACING */
+.container {
+  padding-top: 50px;
+}
+
+.home {
+  position: relative;
+  min-height: 100vh;
+  background-image: url('../img/BG_img/backgrnd.jpg');
+  /* FIX PATH if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Overlay */
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(211, 210, 210, 0.5); */
+}
+
+/* Content above overlay */
+.home .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* ================ nav bar Menu ====================*/
 
 
 .navbar-light {
@@ -137,8 +155,7 @@ p {
   }
 }
 
-
-/*===================== Hero section ======================*/
+/*========= header section ======================*/
 
 .about-img {
   width: 100%;
@@ -181,6 +198,39 @@ p {
   color: #ffffff;
 }
 
+.knw {
+  width: 150px;
+  transform: scale(1.1);
+}
+
+.mypf {
+  margin-left: 35px;
+   transform: scale(1.1);
+}
+
+/* .knw {
+ transform: scale(1.1);
+}
+
+.mypf{
+   transform: scale(1.1);
+} */
+
+
+.knw:hover {
+    color: #f72929;
+    border:none;
+}
+
+.mypf:hover {
+     /* background-color: #e92d0c; */
+    color: #ff0000;
+}
+
+
+/*============= header section == ends here====================*/
+
+
 
 /*===================== Progress Bar ====================*/
 
@@ -195,96 +245,10 @@ p {
 }
 
 
-/* =================== Queality ======================*/
+/* =================== Quality ======================*/
 .ex-me {
   margin-top: 35px;
 }
-
-
-/* =================== Service Section ==================*/
-.service-h4 {
-  padding-bottom: 30px;
-}
-
-.service-icon {
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 60px;
-}
-
-.service-box {
-  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  gap: 10px;
-
-}
-
-.service-box:hover {
-  box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705);
-
-}
-
-/* =================== Portfolio section ==================*/
-
-
-.portfolio-item .portfolio-btn {
-  position: absolute;
-  width: 0;
-  height: 0;
-  top: 50%;
-  left: 50%;
-  border-radius: 4px;
-  opacity: 0;
-  transition: .5s;
-}
-
-.portfolio-item:hover .portfolio-btn {
-  opacity: 1;
-  width: calc(100% - 60px);
-  height: calc(100% - 60px);
-  top: 30px;
-  left: 30px;
-}
-
-/* ====================== Testimonial ================*/
-.testimonial-carousel .text-center {
-  background-color: #eaecf0d0;
-  border-radius: 20px;
-  margin: 20px;
-
-}
-
-.testimonial-carousel .owl-dots {
-  margin-top: 25px;
-  text-align: center;
-}
-
-.testimonial-carousel .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 10px;
-  background: #dddddd;
-}
-
-.testimonial-carousel .owl-dot.active {
-  background: #007bff;
-}
-
-
-
-/* ========================== Contact Us ========================*/
-
-.contact-form .help-block ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
 
 /*====================== Back to buttom ==================*/
 
@@ -318,10 +282,8 @@ p {
   }
 }
 
-/* =========box styles =========== */
+/* ========= protfolio works starts here =========== */
 
-
-/* Card container */
 .portfolio-card {
   position: relative;
 }
@@ -410,57 +372,16 @@ p {
   justify-content: center;
 
 }
+/* =========protfolio works starts here =========== */
 
 
-/* --- contact mee---- */
-.contact-section {
-  padding: 30px 0;
-
-}
-
-.contact-left h2 {
-  font-size: 32px;
-  margin-bottom: 15px;
-}
-
-.desc {
-  color: #555;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.contact-info p {
-  margin: 10px 0;
-}
-
-/* Map */
-.google-map {
-  width: 100%;
-  height: 370px;
-  border: 0;
-  border-radius: 10px;
-  /* margin-top: 15px; */
-}
-
-
-/* body {
-  background: linear-gradient(135deg, #0b132b, #1c2541);
-  color: #fff;
-} */
-
-
-body {
-  /* background: linear-gradient(135deg, #667eea, #764ba2); */
-  font-family: "Poppins", sans-serif;
-}
+ /* ----------- Skill Start  heree ---- */
 
 .skill-card {
   width: 100%;
   height: 250px;
 }
 
-
-/* CARD DESIGN */
 .skill-card {
   background-color: whitesmoke;
   border-radius: 20px;
@@ -508,7 +429,6 @@ body {
   color: #000000;
 }
 
-
 /* PROGRESS BAR BACK */
 .progress {
   height: 8px;
@@ -533,63 +453,138 @@ body {
   }
 }
 
-/* RESPONSIVE SPACING */
-.container {
-  padding-top: 50px;
+/* ----------  Skill ends here ------ */
+
+
+/* -------- Service Section  starts here -----------*/
+.service-h4 {
+  padding-bottom: 30px;
 }
 
-.home {
-  position: relative;
-  min-height: 100vh;
-  background-image: url('../img/UX.png');
-  /* FIX PATH if needed */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.service-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
 }
 
-/* Overlay */
-.home::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
+.service-box {
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  gap: 10px;
+
+}
+
+.service-box:hover {
+  box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705);
+
+}
+
+/* ----service css ends here ---- */
+
+
+/* --- contact mee section starts ---- */
+
+
+.contact-left h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.desc {
+  color: #555;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* .contact-info p {
+  margin: 10px 0;
+} */
+
+.google-map {
   width: 100%;
-  height: 100%;
-  /* background: rgba(211, 210, 210, 0.5); */
+  height: 370px;
+  border: 0;
+  border-radius: 10px;
 
+} 
 
+.contact-card{
+    background-color: white ;
+    padding:25px;
+    border-radius:15px;
+    color: #007bff;
+    /* box-shadow:0 10px 30px rgba(0,0,0,0.4); */
+}
+.contact-item{
+    background-color: #b0d1f3;
+    padding: 5px;
+    border-radius: 10px;
 }
 
-/* Content above overlay */
-.home .container {
-  position: relative;
-  z-index: 1;
+.contact-item{
+    display:flex;
+    align-items:center;
+    margin-bottom:18px;
 }
 
-.knw {
- transform: scale(1.1);
+.contact-item .icon{
+    width:45px;
+    height:45px;
+    background: #fefefe;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    margin-right:12px;
+    color:#000000;
+    font-size:18px;
 }
 
-.mypf{
-   transform: scale(1.1);
+.contact-item .label{
+    font-size:12px;
+    color:#000000;
 }
 
-/* Know More button */
-.knw:hover {
-    /* background-color: #82bdf7; */
-    color: #f72929;
-    border:none;
+.contact-item .value{
+    font-size:14px;
+    color:#3e3c3c;
 }
 
-.mypf:hover {
-     /* background-color: #e92d0c; */
-    color: #ff0000;
+.social-title{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-weight:bold;
+    color:#000000;
 }
+
+.social-icons{
+    display:flex;
+    gap:10px;
+}
+
+.social-icons a{
+    width:40px;
+    height:40px;
+    background:#ffffff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:8px;
+    color:#000000;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+/* --- contact mee section ends here  ---- */
+
+
+
+
 
 /* ----- mobile view css------------ */
-
-
 
 @media (max-width: 576px) {
 
@@ -625,87 +620,23 @@ body {
   }
 
   .google-map {
-    width: 325px;
-       
+    width: 325px; 
     padding-top: 40px;
-    /* margin-left: -14px; */
   }
 
   .works .card {
     margin-inline: 55px
   }
   .role{
-  font-family: cursive;
-   font-size: 17px;
-   font-weight: bold;
+    font-family: cursive;
+    font-size: 17px;
+    font-weight: bold;
   }
+
   .skills{
       padding: 10px;
-    gap: 18px;
-}
+      gap: 18px;
+    }
 
 }
 
-/* -----------get in touch section------------------ */
-
-.contact-card{
-    background-color: whitesmoke;
-    padding:25px;
-    border-radius:15px;
-    color: #007bff;
-    /* box-shadow:0 10px 30px rgba(0,0,0,0.4); */
-}
-
-.contact-item{
-    display:flex;
-    align-items:center;
-    margin-bottom:18px;
-}
-
-.contact-item .icon{
-    width:45px;
-    height:45px;
-    background: #007bff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border-radius:10px;
-    margin-right:12px;
-    color:#ffffff;
-    font-size:18px;
-}
-
-.contact-item .label{
-    font-size:12px;
-    color:#000000;
-}
-
-.contact-item .value{
-    font-size:14px;
-    color:#000000;
-}
-
-.social-title{
-    margin-top:10px;
-    margin-bottom:10px;
-    font-weight:bold;
-    color:#000000;
-}
-
-.social-icons{
-    display:flex;
-    gap:10px;
-}
-
-.social-icons a{
-    width:40px;
-    height:40px;
-    background:#ffffff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border-radius:8px;
-    color:#000000;
-    text-decoration:none;
-    transition:0.3s;
-}
