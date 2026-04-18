@@ -52,7 +52,7 @@
     } */
 
     .card:hover img {
-      transform: scale(1.05);
+      transform: scale(1.00);
     }
 
     .card {
@@ -83,30 +83,32 @@
 
     .card-img-top {
       width: 100%;
-      height: 200px;
+      height: 180px;
       object-fit: contain;
       padding: 10px;
     }
 
     .card-img-temp {
       width: 100%;
-      height: 300px;
+      height: 220px;
       object-fit: contain;
-      display: block;
-      margin: 0 auto;
       padding: 10px;
     }
 
     @media (max-width: 576px) {
-      .card-img-top {
-        width: 70%;
+
+      .card-img-top,
+      .card-img-temp {
+        height: 150px;
       }
 
       .card-body {
-        font-size: 20px;
-        margin-top: -124px;
+        font-size: 14px;
+        margin-top: 0;
+        /* ✅ remove negative margin */
       }
     }
+
   </style>
 </head>
 
@@ -114,11 +116,11 @@
 
   <!-- LOGO DESIGN SECTION -->
   <div class="container-fluid">
-    <h2 class="section-title">Logos Designs using Illustrator</h2>
+    <h2 class="section-title mt-3">Logos Designs using Illustrator</h2>
     <div class="row justify-content-center">
 
       <!-- Logo 1 -->
-      <div class="col-lg-2 ">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 ">
         <div class="card shadow-sm h-100">
           <img src="img/illustrator/acs logo.png" class="card-img-top" alt="ACS Logo">
           <div class="card-body align-items-center">
@@ -165,7 +167,7 @@
       </div>
 
       <!-- Logo 2 -->
-      <div class="col-lg-2 ">
+     <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card shadow-sm h-100">
           <img src="img/illustrator/bb logo.png" class="card-img-top" alt="BB Logo">
           <div class="card-body  align-items-center">
@@ -213,7 +215,7 @@
       </div>
 
       <!-- Logo 3 -->
-      <div class="col-lg-2 ">
+     <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card shadow-sm h-100">
           <img src="img/illustrator/musiclogo.png" class="card-img-top" alt="Music Logo">
           <div class="card-body  align-items-center">
@@ -260,7 +262,7 @@
       </div>
 
       <!-- Logo 4 -->
-      <div class="col-lg-2 ">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card shadow-sm h-100">
           <img src="img/illustrator/pearly dental clinic logo.png" class="card-img-top" alt="Dental Clinic Logo"
             style="padding-top: 39px;">
@@ -268,7 +270,6 @@
             <h5 class="card-title">Dental Clinic Logo</h5>
             <p class="card-text">Professional logo designed for Pearly Dental Clinic, emphasizing trust and care.</p>
             <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#dentalModal">view Case Study</a>
-
           </div>
 
           <!-- Dental Clinic Logo Modal -->
@@ -309,7 +310,8 @@
       </div>
 
 
-      <div class="col-lg-2 ">
+         <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
+
         <div class="card shadow-sm h-100">
           <img src="img/illustrator/sneha-logo.png" class="card-img-top" alt="sneha Logo">
           <div class="card-body  align-items-center">

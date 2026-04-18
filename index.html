@@ -26,41 +26,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <!-- Customized css Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <style>
-        h2.section-title {
-            font-weight: 700;
-            text-align: center;
-            margin-bottom: 30px;
-            position: relative;
-            color: #e32020;
-        }
-
-        h2.section-title::after {
-            content: "";
-            display: block;
-            width: 60px;
-            height: 3px;
-            background: #007bff;
-            margin: 10px auto 0;
-
-        }
-    </style>
-
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
+
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-primary">Snehitha</span></h1>
+            <h1 class="m-0 display-5 text-primary">Snehitha<span class="text-secondary"> Portfolio</span></h1>
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-            <div class="navbar-nav m-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
+        <div class="collapse navbar-collapse px-lg-5" id="navbarCollapse">
+            <div class="navbar-nav ml-auto py-0">
+                <a href="#title" class="nav-item nav-link active">Home</a>
                 <a href="#about" class="nav-item nav-link">About</a>
                 <a href="#qualification" class="nav-item nav-link">Quality</a>
                 <a href="#skill" class="nav-item nav-link">Skill</a>
@@ -69,34 +50,25 @@
                 <!-- <a href="#testimonial" class="nav-item nav-link">Review</a> -->
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="#" class="btn btn-menu d-none d-lg-block" style="background-color:#007bff; color: #ffffff;">Hire
-                Me</a>
+            <!-- <a href="#" class="btn btn-menu d-none d-lg-block" style="background-color:#007bff; color: #ffffff;">HireMe</a> -->
         </div>
     </nav>
     <!-- Navbar End -->
 
     <!-- Header Start -->
-    <div class="container-fluid d-flex align-items-center mb-5 py-5 home">
+    <div class="container-fluid d-flex align-items-center mb-5 py-5 home" id="title">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 text-center text-lg-left">
-                    <h3 class="text-white font-weight-normal mb-3">Hello, I"am</h3>
-                    <P class="display-3 " style="-webkit-text-stroke: 2px #ffffff; font-size: 55px;font-weight: 250;
-                    line-height: 1.2;">Snehitha Kawade </p>
+                    <h3 class="text-white font-weight-normal mb-3">Hello, I'am</h3>
+                    <P class="display-3">Snehitha Kawade </p>
                     <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
                     <div class="typed-text d-none">UI/UX Designer, Web Developer, Front End Developer,</div>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="#about" target="_blank" class="btn btn-white knw">know More </a>
-                        <a href="#portfolio" target="_blank" class="btn btn-white mypf">View My Works</a>
-                    </div>
-
-                    <div class="row" style="margin-left: 16rem; margin-top: 3rem;">
-                        <a href="https://www.linkedin.com" target="_blank" class="social-icon "> <img src="img/lnk.webp" alt="Naukri"> </a>
-                        <a href="https://www.naukri.com/" target="_blank" class="social-icon "> <img src="img/Nakuri1.png" alt="Naukri"></a>
-                        <a href="https://www.naukri.com/" target="_blank" class="social-icon "> <img src="img/mail2.webp" alt="Naukri"> </a>
+                        <a href="#about" target="_blank" class="btn knw">know More </a>
+                        <a href="#portfolio" target="_blank" class="btn mypf">View My Works</a>
                     </div>
                 </div>
-
                 <div class="col-lg-6 d-flex justify-content-center align-items-center px-3 pb-5 pb-lg-4 about-img">
                     <img class="img-fluid rounded-circle shadow-sm" src="img/about.jpeg" alt="">
                 </div>
@@ -109,14 +81,24 @@
     <!-- About Start -->
     <div class="container-fluid py-2" id="about">
         <div class="container">
-            <h2 class="section-title">ABOUT ME</h2>
-
+            <h2 class="section-title-H">ABOUT ME</h2>
             <div class="row align-items-center">
                 <div class="col-lg-5 ">
                     <img class="img-fluid rounded" src="img/about.jpeg" alt="">
+
+                    <div class="row followme" style=" margin-left:50px; margin-top: 22px;">
+                        <strong style="margin-top: 10px;">Follow Me :</strong>
+                        <a href="https://www.linkedin.com/in/snehitha-k/" target="_blank" class="social-icon">
+                             <img src="img/lnk.webp" alt="Naukri"> </a>
+                        <a href="https://www.naukri.com/" target="_blank" class="social-icon ">
+                             <img src="img/Nakuri1.png" alt="Naukri"></a>
+                        <a href="#" target="_blank" class="social-icon"> 
+                            <img src="img/mail2.webp" alt="Naukri"> </a>
+                    </div>
                 </div>
+
                 <div class="col-lg-7">
-                    <h3 class="role mt-4">Frontend Developer & UI UX Designer </h3>
+                    <h3 class="role">Frontend Developer & UI UX Designer </h3>
                     <p>I’m a Frontend Developer with 3+ years of experience crafting responsive and user-centric
                         web applications. At GVR InfoSystem, I have built scalable and visually engaging interfaces
                         using ASP.NET,Bootstrap, and modern UI/UX principles. I focus on writing clean, maintainable
@@ -154,8 +136,8 @@
                             <h6>Freelance : <span class="text-secondary">Available</span></h6>
                         </div>
                     </div>
-                    <a href="Snehitha_Resume.pdf " class="btn blue btn-outline-primary mr-4">Download CV </a>
-                    <a href="infographic resume.png" class="btn btn-outline-primary">Infographic Resume</a>
+                    <a href="SnehithaCV.pdf"  target="_blank" class="btn blue btn-outline-primary mr-4">Download CV </a>
+                    <a href="infographic resume.png" target="_blank" class="btn btn-outline-primary">Infographic Resume</a>
                 </div>
             </div>
         </div>
@@ -165,10 +147,12 @@
     <!-- Qualification Start -->
     <div class="container-fluid py-5" id="qualification">
         <div class="container">
-            <h2 class="section-title">EDUCATION & EXPERIENCE </h2>
+            <h2 class="section-title-H">Education & Experience</h2>
+            <!-- EDUCATION & EXPERIENCE -->
             <div class="row align-items-center">
+
                 <div class="col-lg-6">
-                    <h3 class="edex mb-4"><i class="fas fa-graduation-cap"> Education</i></h3>
+                    <h4 class="edex"><i class="fas fa-graduation-cap"></i>   EDC</h4>
                     <div class="border-left border-primary pt-2 pl-4 ml-2">
                         <div class="position-relative ex-me mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute"
@@ -177,7 +161,7 @@
                             <p class="mb-2">Kakatiya institute of Engineering and
                                 technology & science for women. [ECE] | <small>2018 - 2022</small></p>
                             <!-- <p>Tempor eos dolore amet tempor dolor tempor.</p> -->
-                        </div> </br></br>
+                        </div> <br /><br />
                         <div class="position-relative ex-me mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute"
                                 style="top: 2px; left: -35px;  font-size: 22px;"></i>
@@ -185,8 +169,7 @@
                             <p class="mb-2"> MEGHA institute of Engineering and
                                 technology & science for women. [ECE]| <small>2015 - 2018</small></p>
                             <!-- <p>Tempor eos dolore amet tempor dolor tempor. </p> -->
-                        </div></br></br>
-
+                        </div><br /><br />
 
                         <div class="position-relative ex-me mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute"
@@ -195,17 +178,20 @@
                             <p class="mb-2">SMAG Vidyanikaten High School. | <small>2014 -
                                     2015</small>
                             </p>
-                        </div></br></br>
+                        </div>
+                        <br /><br />
                     </div>
+
                 </div>
+
                 <div class="col-lg-6">
-                    <h3 class="edex mb-4"><i class="fas fa-laptop-code"> Expericence</i></h3>
+                    <h4 class="edex"><i class="fas fa-laptop-code fa-lg"></i>  EXP</h4>
                     <div class="border-left border-primary pt-2 pl-4 ml-2">
                         <div class="position-relative ex-me mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute"
                                 style="top: 2px;left: -35px;  font-size: 22px;"></i>
                             <h5 class="font-weight-bold mb-1"> Frontend Developer & UI UX Designer Developer </h5>
-                            <p class="mb-2"><strong>GVR Info System Pvt. Ltd</strong> | <small> Excellent</small>
+                            <p class="mb-2"><strong>GVR Info System Pvt. Ltd</strong> | <small> 2023-Till Now</small>
                             </p>
                             <p>Frontend & ASP.NET Developer with 3 year of experience in building responsive web
                                 applications.<!-- Skilled in HTML, CSS, Bootstrap , JavaScript and Angular for frontend,
@@ -217,7 +203,7 @@
                             <i class="far fa-dot-circle text-primary position-absolute"
                                 style="top: 2px;left: -35px;  font-size: 22px;"></i>
                             <h5 class="font-weight-bold mb-1"> Project Associate</h5>
-                            <p class="mb-2"><strong> GVR infoysystems Pvt.ltd</strong> | <small> Good</small></p>
+                            <p class="mb-2"><strong> GVR infoysystems Pvt.ltd</strong> | <small> 2023-2023</small></p>
                             <p>Handled Level-2 technical support for the ESIC application, diagnosing and resolving
                                 complex user issues, coordinating with development teams, and improving application
                                 reliability.
@@ -228,7 +214,7 @@
                             <i class="far fa-dot-circle text-primary position-absolute"
                                 style="top: 2px;left: -35px;  font-size: 22px;"></i>
                             <h5 class="font-weight-bold mb-1"> Graphic Designer</h5>
-                            <p class="mb-2"><strong>Freelance</strong> | <small> Excellent</small></p>
+                            <p class="mb-2"><strong>Freelance</strong> | <small> 2022</small></p>
                             <p>Designed and created visual content for various clients, including logos, brochures,
                                 and
                                 marketing materials. Utilized Adobe Creative Suite to bring ideas to life and ensure
@@ -242,9 +228,9 @@
     <!--- Qualification End -->
 
     <!--- Skill Start -------->
-    <div class="container-fluid py-5" id="skill">
+    <div class="container-fluid " id="skill">
         <div class="container">
-            <h2 class="section-title">SKILLS</h2>
+            <h2 class="section-title-H">SKILLS</h2>
 
             <!-- <div class="container-fluid py-5"> -->
             <div class="skills row">
@@ -284,6 +270,9 @@
 
                         <div class="skill-item">
                             <span>ASP .Net & C#</span><span>90%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width:90%"></div>
                         </div>
 
                         <div class="skill-item">
@@ -364,7 +353,7 @@
 
     <div class="container-fluid pt-5 pb-3" id="portfolio">
         <div class="container">
-            <h2 class="section-title">PORTFOLIO WORKS</h2>
+            <h2 class="section-title-H">PORTFOLIO WORKS</h2>
 
             <div class="row mt-2">
                 <div class="col-12 text-center">
@@ -479,7 +468,7 @@
     <!------ Services STARTS here  ----------->
     <div class="container-fluid pt-5" id="service">
         <div class="container">
-            <h2 class="section-title">SERVICES</h2>
+            <h2 class="section-title-H">SERVICES</h2>
 
             <div class="container-fluid row">
                 <div class="service-box col-lg-4  text-center mb-5">
@@ -518,26 +507,26 @@
     <!--------------- Contact Start here  -------------------------->
 
     <div class="container" id="contact">
-        <h2 class="section-title">CONTACT ME</h2>
-            <p class="desc">
-                I’m always open to discussing new opportunities, creative ideas, or collaborations.
-                Feel free to reach out to me anytime!
-            </p>
-            <div class="row align-items-center">
-                <!-- LEFT SIDE -->
-                <div class="col-lg-6 contact-left">
-                    <div class="contact-card shadow">
-                        <!-- Email -->
-                        <div class="contact-item">
-                            <div class="icon"><i class="fa-solid fa-envelope"></i> </div>
-                            <div>
-                                <div class="label">Email</div>
-                                <div class="value"> <strong>snehitha.mohan@gmail.com</strong></div>
-                            </div>
+        <h2 class="section-title-H">CONTACT ME</h2>
+        <p class="desc">
+            I’m always open to discussing new opportunities, creative ideas, or collaborations.
+            Feel free to reach out to me anytime!
+        </p>
+        <div class="row align-items-center">
+            <!-- LEFT SIDE -->
+            <div class="col-lg-6 contact-left">
+                <div class="contact-card shadow">
+                    <!-- Email -->
+                    <div class="contact-item">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i> </div>
+                        <div>
+                            <div class="label">Email</div>
+                            <div class="value"> <strong>snehitha.mohan@gmail.com</strong></div>
                         </div>
+                    </div>
 
-                        <!-- Phone -->
-                        <div class="contact-item">
+                    <!-- Phone -->
+                    <!-- <div class="contact-item">
                             <div class="icon">
                                 <i class="fa-solid fa-phone"></i>
                             </div>
@@ -545,51 +534,51 @@
                                 <div class="label">Phone</div>
                                 <div class="value"> <strong>+91 9705131288</strong></div>
                             </div>
+                        </div> -->
+
+                    <!-- Location -->
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
                         </div>
-
-                        <!-- Location -->
-                        <div class="contact-item">
-                            <div class="icon">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <div>
-                                <div class="label">Location</div>
-                                <div class="value"> <strong>Hyderabad, Telangana, India</strong></div>
-                            </div>
-                        </div>
-
-                        <!-- Availability -->
-                        <div class="contact-item">
-                            <div class="icon">
-                                <i class="fa-solid fa-briefcase"></i>
-                            </div>
-                            <div>
-                                <div class="label">Available for</div>
-                                <div class="value"> <strong>Freelance | Full-time | Remote Work</strong></div>
-                            </div>
-                        </div>
-
-                        <!-- Social -->
-                        <div class="social-title">Follow Me</div>
-
-                        <div class="social-icons">
-                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                        <div>
+                            <div class="label">Location</div>
+                            <div class="value"> <strong>Hyderabad, Telangana, India</strong></div>
                         </div>
                     </div>
+
+                    <!-- Availability -->
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div>
+                            <div class="label">Available for</div>
+                            <div class="value"> <strong>Freelance | Full-time | Remote Work</strong></div>
+                        </div>
+                    </div>
+
+                    <!-- Social -->
+                    <div class="social-title">Follow Me</div>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/snehitha-k"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.naukri.com/"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
                 </div>
-
-
-                <!-- RIGHT SIDE -->
-                <div class="col-lg-6 contact-right">
-
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.9620875526593!2d78.49106391467109!3d17.413606988062885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99ec33edce11%3A0x5b179b94a588daeb!2sGandhi%20Nagar%2C%20Kavadiguda%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1656085879191!5m2!1sen!2sin"
-                        allowfullscreen="" loading="lazy" class="google-map">
-                    </iframe>
-                </div>
-
             </div>
+
+
+            <!-- RIGHT SIDE -->
+            <div class="col-lg-6 contact-right">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.9620875526593!2d78.49106391467109!3d17.413606988062885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99ec33edce11%3A0x5b179b94a588daeb!2sGandhi%20Nagar%2C%20Kavadiguda%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1656085879191!5m2!1sen!2sin"
+                    allowfullscreen="" loading="lazy" class="google-map">
+                </iframe>
+            </div>
+
+        </div>
     </div>
     <!-- ----contact end here  -------------------------->
 
@@ -612,7 +601,7 @@
                 <span class="px-3">|</span>
                 <a class="text-white" href="#">Help</a>
             </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Snehitha</a>. All Rights
+            <p class="m-0 text-white">&copy; <a class="text-white font-weight-bold" href="#">Snehitha</a>. All Rights
                 Reserved.
                 Designed by <a class="text-white font-weight-bold" href="#">Snehitha kawade</a>
             </p>
