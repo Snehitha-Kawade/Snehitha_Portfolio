@@ -678,4 +678,14 @@ p {
     gap: 18px;
   }
 
+  .h2.section-title-H{
+    font-size: 24px;
+  }
+  .role{
+    font-size: 30px;
+  } 
+  .typed-text{
+    font-size: 25px;
+  }
+  
 }
