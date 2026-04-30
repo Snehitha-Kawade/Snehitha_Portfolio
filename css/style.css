@@ -687,8 +687,7 @@ p {
   .role{
     font-size: 30px;
   } 
-  .typed-text{
-    font-size: 25px;
+  .typed-text-output{
+    font-size: 30px;
   }
-  
 }
