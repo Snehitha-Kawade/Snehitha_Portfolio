@@ -119,6 +119,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
   /* width: 40px;
   height: 40px; */
   background: #ffffff;
@@ -129,8 +130,10 @@ p {
 }
 
 .social-icon img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+    text-decoration: none;
+  
+  height: 50px;
   object-fit: contain;
   
 }
@@ -638,7 +641,7 @@ p {
 
   .mypf {
     font-size: 13px;
-    padding-top: 6px;
+    padding-top: 13px;
   }
 }
 
